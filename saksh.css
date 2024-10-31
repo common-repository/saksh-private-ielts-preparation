@@ -1,0 +1,184 @@
+ .sakshtable {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.sakshtable th,
+.sakshtable td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+.sakshtable thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+.sakshtable tbody + tbody {
+  border-top: 2px solid #eceeef;
+}
+
+.sakshtable .sakshtable {
+  background-color: #fff;
+}
+
+.sakshtable-sm th,
+.sakshtable-sm td {
+  padding: 0.3rem;
+}
+
+.sakshtable-bordered {
+  border: 1px solid #eceeef;
+}
+
+.sakshtable-bordered th,
+.sakshtable-bordered td {
+  border: 1px solid #eceeef;
+}
+
+.sakshtable-bordered thead th,
+.sakshtable-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.sakshtable-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sakshtable-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.sakshtable-active,
+.sakshtable-active > th,
+.sakshtable-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.sakshtable-hover .sakshtable-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.sakshtable-hover .sakshtable-active:hover > td,
+.sakshtable-hover .sakshtable-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.sakshtable-success,
+.sakshtable-success > th,
+.sakshtable-success > td {
+  background-color: #dff0d8;
+}
+
+.sakshtable-hover .sakshtable-success:hover {
+  background-color: #d0e9c6;
+}
+
+.sakshtable-hover .sakshtable-success:hover > td,
+.sakshtable-hover .sakshtable-success:hover > th {
+  background-color: #d0e9c6;
+}
+
+.sakshtable-info,
+.sakshtable-info > th,
+.sakshtable-info > td {
+  background-color: #d9edf7;
+}
+
+.sakshtable-hover .sakshtable-info:hover {
+  background-color: #c4e3f3;
+}
+
+.sakshtable-hover .sakshtable-info:hover > td,
+.sakshtable-hover .sakshtable-info:hover > th {
+  background-color: #c4e3f3;
+}
+
+.sakshtable-warning,
+.sakshtable-warning > th,
+.sakshtable-warning > td {
+  background-color: #fcf8e3;
+}
+
+.sakshtable-hover .sakshtable-warning:hover {
+  background-color: #faf2cc;
+}
+
+.sakshtable-hover .sakshtable-warning:hover > td,
+.sakshtable-hover .sakshtable-warning:hover > th {
+  background-color: #faf2cc;
+}
+
+.sakshtable-danger,
+.sakshtable-danger > th,
+.sakshtable-danger > td {
+  background-color: #f2dede;
+}
+
+.sakshtable-hover .sakshtable-danger:hover {
+  background-color: #ebcccc;
+}
+
+.sakshtable-hover .sakshtable-danger:hover > td,
+.sakshtable-hover .sakshtable-danger:hover > th {
+  background-color: #ebcccc;
+}
+
+.thead-inverse th {
+  color: #fff;
+  background-color: #292b2c;
+}
+
+.thead-default th {
+  color: #464a4c;
+  background-color: #eceeef;
+}
+
+.sakshtable-inverse {
+  color: #fff;
+  background-color: #292b2c;
+}
+
+.sakshtable-inverse th,
+.sakshtable-inverse td,
+.sakshtable-inverse thead th {
+  border-color: #fff;
+}
+
+.sakshtable-inverse.sakshtable-bordered {
+  border: 0;
+}
+
+.sakshtable-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.sakshtable-responsive.sakshtable-bordered {
+  border: 0;
+}
+
+
+
+.sakshhr  {
+border: 1px solid  ;
+  padding: 16px ;
+}
+  
+  
+  
+ #sakshaccordion h3{
+    border-top: 1px solid  !important ;
+  padding: 16px ;  
+  
+   
+  font-size: 21px;
+  
+  
+      
+  }
+  
